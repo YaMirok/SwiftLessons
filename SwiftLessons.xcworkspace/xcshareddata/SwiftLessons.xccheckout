@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BBBF1484-3009-4646-8A1C-5AF50C670F64</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwiftLessons</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C302E45C68D95418A4513E803DD34AB095D4ECE1</key>
+		<string>https://github.com/YaMirok/SwiftLessons.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwiftLessons.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C302E45C68D95418A4513E803DD34AB095D4ECE1</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/YaMirok/SwiftLessons.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C302E45C68D95418A4513E803DD34AB095D4ECE1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C302E45C68D95418A4513E803DD34AB095D4ECE1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftLessons</string>
+		</dict>
+	</array>
+</dict>
+</plist>
