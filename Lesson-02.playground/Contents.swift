@@ -16,13 +16,16 @@ let intConst=43
 let floatConst:Float=13.4354
 let doubleConst=54.434232432
 
-let intSum=intConst+Int(floatConst)+Int(doubleConst)
+let intSum=Int(Double(intConst)+Double(floatConst)+doubleConst)
 let floatSum=Float(intConst)+floatConst+Float(doubleConst)
 let doubleSum=Double(intConst)+Double(floatConst)+doubleConst
 
 
 if Double(intSum) > doubleSum{
-    println("it is amazing")
+    println("Double less")
+}
+else if Double(intSum) == doubleSum{
+    println("Equals")
 }
 else
 {
