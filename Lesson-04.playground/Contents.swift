@@ -49,7 +49,7 @@ var response2:(statusCode:Int,message:String?,errorMessage:String?)=(404,nil,"Er
 var response3:(statusCode:Int,message:String?,errorMessage:String?)=(290,"It is ok 2",nil)
 var response4:(statusCode:Int,message:String?,errorMessage:String?)=(500,nil,"Error! Bad address")
 
-if response1.statusCode > 200 && response1.statusCode < 300{
+if response1.statusCode >= 200 && response1.statusCode < 300{
     println("Message = \(response1.message!)")
 }
 else{
@@ -57,7 +57,7 @@ else{
 
 }
 
-if response2.statusCode > 200 && response2.statusCode < 300{
+if response2.statusCode >= 200 && response2.statusCode < 300{
     println("Message = \(response2.message!)")
 }
 else{
@@ -65,7 +65,7 @@ else{
     
 }
 
-if response3.statusCode > 200 && response3.statusCode < 300{
+if response3.statusCode >= 200 && response3.statusCode < 300{
     println("Message = \(response3.message!)")
 }
 else{
@@ -73,7 +73,7 @@ else{
     
 }
 
-if response4.statusCode > 200 && response4.statusCode < 300{
+if response4.statusCode >= 200 && response4.statusCode < 300{
     println("Message = \(response4.message!)")
 }
 else{
