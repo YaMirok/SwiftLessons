@@ -17,15 +17,13 @@ a1
 a2
 
 
-let figurePoint = (3 , 2)
+let figurePoint = (4, 2)
 
 
 let x = figurePoint.0 % 2
 
 let y = figurePoint.1 % 2
 
-if x == 0 && y == 0 {
-    println("Фигура стоит на черной клетке")
-} else {
-    println("Фигура стоит на белой клетке")
-}
+let colorOfSquare = (x == 0 && y == 0) ? "черной" : "белой"
+
+println("Фигура стоит на \(colorOfSquare) клетке")
