@@ -92,6 +92,19 @@ tmpArray
 func processString(str:String) ->String{
     var result = ""
     
+    let numberToString = [
+        "0" : "zero",
+        "1": "one",
+        "2": "two",
+        "3": "three",
+        "4": "four",
+        "5": "five",
+        "6": "six",
+        "7": "seven",
+        "8": "eight",
+        "9": "nine"
+    ]
+    
     for letter in str.lowercaseString{
         
         switch letter{
@@ -99,19 +112,11 @@ func processString(str:String) ->String{
         case "а", "я", "ы", "у", "е", "о", "и", "ю", "э" : result += String(letter).uppercaseString
         case "б", "в", "г", "д", "ж", "з", "й", "к", "л", "м", "н", "п", "р", "с", "т", "ф", "х", "ц", "ч", "ш", "щ", "ь", "ъ": result += String(letter)
         
+        case "0"..."9" : result += numberToString[String(letter)]!
+            
         case " ":result += String(letter)
             
-        case "0": result += "zero"
-        case "1": result += "one"
-        case "2": result += "two"
-        case "3": result += "three"
-        case "4": result += "four"
-        case "5": result += "five"
-        case "6": result += "six"
-        case "7": result += "seven"
-        case "8": result += "eight"
-        case "9": result += "nine"
-        default: break
+                default: break
         
         }
     }
