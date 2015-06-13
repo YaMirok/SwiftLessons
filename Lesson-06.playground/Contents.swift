@@ -1,4 +1,3 @@
-import UIKit
 
 let str1="321"
 let str2="54df"

@@ -58,11 +58,10 @@ let point = (x:1 , y: 5)
 
 switch point {
     
-    case let (x, y) where x == y: println("Мимо")
+case let (x, y) where x == y: println("Мимо")
+case let (x, y) where (x + y) <= 6: println("Убил")
+case let (x, y) where (x * y) % 2 == 0: println("Ранил")
+case (0...4, 1...5): println("Мимо")
+default: println("Мимо")
     
-    case let (x, y) where (x + y) <= 6: println("Убил")
-    
-    case let (x, y) where (x * y) % 2 == 0: println("Ранил")
-    
-    default: println("Мимо")
 }
